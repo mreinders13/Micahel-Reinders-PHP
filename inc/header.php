@@ -17,9 +17,9 @@
 <div id="nav-bar">
 <nav>
 	<a <?php echo "class=\"$homeActive\""; ?> href="/">Home</a> 
-	<a <?php echo "class=\"$aboutActive\""; ?> href="/about.php">About</a> 
-	<a <?php echo "class=\"$portfolioActive\""; ?> href="/portfolio.php">Portfolio</a> 
-	<a <?php echo "class=\"$contactActive\""; ?> href="/contact.php">Contact</a>
+	<a <?php echo "class=\"$aboutActive\""; ?> href="/about">About</a> 
+	<a <?php echo "class=\"$portfolioActive\""; ?> href="/portfolio">Portfolio</a> 
+	<a <?php echo "class=\"$contactActive\""; ?> href="/contact">Contact</a>
 </nav>
 </div>
 <!-- Set all 3 Images to change in responsive CSS -->
