@@ -12,8 +12,8 @@ include("inc/header.php"); ?>
 <!--------------------------Content to show if clicked-------------------->
 <div id="websites" style="display: block;">
 	<p class="previewHeader"><a href="/" target="_blank">Michael-Reinders.com</a></p>
-	<a href="/" target="_blank"><img class="preview-img" src="img/michael-reinders-preview.png" alt="michael-reinders-preview" /></a>	
-	<p><a href="/" target="_blank">Michael-Reinders.com</a> is a static website created using simple HTML, CSS and Javascript. The goal of this website was to design a beautiful, professional portfolio website while using a minimal amount of code. The result is a stunning, simplistic and informative website that is both responsive and optimized for mobile devices.</p>
+	<a href="https://github.com/mreinders13/Micahel-Reinders-PHP" target="_blank"><img class="preview-img" src="img/michael-reinders-preview.png" alt="michael-reinders-preview" /></a>	
+	<p><a href="/" target="_blank">Michael-Reinders.com</a> is my personal portfolio website, built to showcase my work in programming and web design. The goal of this website was to design a beautiful, professional portfolio website while using a minimal amount of code. The result is a stunning, simplistic and informative website that is both responsive and optimized for mobile devices. <a href="https://github.com/mreinders13/michael-reinders.com" target="_blank" alt="Link to Original Website's Github Repository">Originally</a> a static website created using simple HTML, CSS and Javascript; I've re-developed this website using PHP to make it easier to maintain and improve on.</p>
 	<hr />
 	<p class="previewHeader"><a href="https://www.quantummark.com" target="_blank">QuantumMark.com</a></p>
 	<a href="https://www.quantummark.com" target="_blank"><img class="preview-img" src="img/quantummark-preview.png" alt="quantummark-preview" /></a>	
