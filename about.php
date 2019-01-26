@@ -1,4 +1,11 @@
-<?php include("inc/header.php"); ?>
+<?php 
+
+$homeActive = "nav-class";
+$aboutActive = "nav-class, active";
+$portfolioActive = "nav-class";
+$contactActive = "nav-class";
+
+include("inc/header.php"); ?>
 <h1 style="text-align: center; font-weight: 100;">About</h1>
 <div id="profile-content-wide">
 	<div style="float: left; width: 47.5%; margin-right: 2.5%; text-align: right;">

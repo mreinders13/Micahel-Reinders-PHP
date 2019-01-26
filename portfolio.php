@@ -1,4 +1,11 @@
-<?php include("inc/header.php"); ?>
+<?php 
+
+$homeActive = "nav-class";
+$aboutActive = "nav-class";
+$portfolioActive = "nav-class, active";
+$contactActive = "nav-class";
+
+include("inc/header.php"); ?>
 <h1 style="font-weight: 100;">Portfolio</h1>
 <p id="portfolioMenu"><a id="menuSite" href='javascript:;' onclick='resetMenu(),selectSites()'>Websites</a> | <a id="menuWeb" href='javascript:;' onclick='resetMenu(),selectWeb()'>Web-Apps</a> | <a id="menuDesktop" href='javascript:;' onclick='resetMenu(),selectDesktop()'>Desktop</a> | <a id="menuMobile" href='javascript:;' onclick='resetMenu(),selectMobile()'>Mobile</a></p>
 
