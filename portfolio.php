@@ -1,60 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-	<title>Portfolio | Michael Reinders</title>
-	<meta name="description" content="Portfolio"><meta name="author" content="Michael Reinders"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
-	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
-	<link href="css/Main.css" rel="stylesheet" type="text/css" />
-	<link href="css/screenResponse.css" rel="stylesheet" type="text/css" />
-	<!--page specific css-->
-	<style>
-	    #websites, #webApps, #desktopApps, #mobileApps {
-	        display: none;
-	    }
-	    
-	    #portfolioMenu {
-	        font-family: 'Muli', sans-serif;
-	        font-size: 16px;
-	        text-align: center;
-	    }
-	    
-	    #portfolioMenu a {
-	        text-decoration: none;
-	        color: #707070;
-	    }
-
-	    a#menuSite {
-	    	color: black;
-	    }
-
-	    .previewHeader {
-	    	text-align: center;
-	    	font-size: 18px;
-	    	color: black;
-	    }
-
-	    
-	</style>
-</head>
-<body>
-<div id="siteTitle">
-<p>Michael-Reinders.com</p>
-</div>
-
-<div id="nav-bar">
-<nav><a class="nav-class" href="/">Home</a> <a class="nav-class" href="/about">About</a> <a class="nav-class, active" href="/portfolio">Portfolio</a> <a class="nav-class" href="/contact">Contact</a></nav>
-</div>
-
-<!-- Set all 3 Images to change in responsive CSS -->
- 
-<img alt="Programming and Web Design" id="home-banner" src="img/Michael-Reinders-Main-Banner.png" /> 
-<img alt="Programming and Web Design" id="home-banner-800" src="img/Michael-Reinders-Main-Banner-800.png" /> 
-<img alt="Programming and Web Design" id="home-banner-480" src="img/Michael-Reinders-Main-Banner-480.png" /> 
-
-<!-- Main Content -->
-
-<div id="page-main-content">
+<?php include("inc/header.php"); ?>
 <h1 style="font-weight: 100;">Portfolio</h1>
 <p id="portfolioMenu"><a id="menuSite" href='javascript:;' onclick='resetMenu(),selectSites()'>Websites</a> | <a id="menuWeb" href='javascript:;' onclick='resetMenu(),selectWeb()'>Web-Apps</a> | <a id="menuDesktop" href='javascript:;' onclick='resetMenu(),selectDesktop()'>Desktop</a> | <a id="menuMobile" href='javascript:;' onclick='resetMenu(),selectMobile()'>Mobile</a></p>
 
@@ -132,11 +76,4 @@ function selectMobile() {
 }
 
 </script>
-</div>
-
-<footer>
-<p id="footer"><a href="mailto:michael.h.reinders@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/michaelhreinders/" target="_blank">LinkedIn</a> | <a href="https://github.com/mreinders13" target="_blank">GitHub</a> | <a href="https://www.facebook.com/michael.reinders.31?ref=bookmarks" target="_blank">Facebook</a> | <a href="https://twitter.com/mreinders13" target="_blank">Twitter</a><br />
-&copy; Copyright 2018 Michael Reinders</p>
-</footer>
-</body>
-</html>
+<?php include("inc/footer.php"); ?>

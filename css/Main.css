@@ -130,6 +130,33 @@ a.nav-class:hover {
     display: none;
     margin: auto;
 }
+
+/*----------------------Portfolio Style------------------------------*/
+        #websites, #webApps, #desktopApps, #mobileApps {
+            display: none;
+        }
+        
+        #portfolioMenu {
+            font-family: 'Muli', sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        #portfolioMenu a {
+            text-decoration: none;
+            color: #707070;
+        }
+
+        a#menuSite {
+            color: black;
+        }
+
+        .previewHeader {
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+
 /*----------------------Footer Styling-------------------------------*/
 #footer a {
     text-decoration: none;
