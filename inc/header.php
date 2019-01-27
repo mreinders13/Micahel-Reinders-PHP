@@ -8,6 +8,8 @@
 	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="css/Main.css" rel="stylesheet" type="text/css" />
 	<link href="css/screenResponse.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
 </head>
 <body>
 <div id="siteTitle">
