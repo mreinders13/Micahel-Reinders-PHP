@@ -1,22 +1,37 @@
-/*------------------------------Header--------------------------------*/
+/*------------------------------SiteHeader--------------------------------*/
+#siteHeader {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    height: 105px;
+}
 
 
+/*------------------------------Site Logo----------------------------*/
+
+#siteLogo {
+    display: inline-block;
+    margin: 2.5% auto;
+    padding: 0 2.5%;
+}
+
+#siteLogo img {
+    width: 75px;
+}
 
 /*------------------------------Site Title----------------------------*/
 
-#siteTitle {
+#site-title {
     display: inline-block;
-    font-weight: 100;
-    font-family: 'Muli', sans-serif;
-    padding-left: 5%;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 26px;
 }
 
-#siteTitle p {
-    padding-top: 10px;
-    vertical-align: middle;
+#site-title {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: #707070;
+    position: relative;
+    top: -28px;
 }
 
 /*--------------------------Navigation--------------------------------*/
@@ -24,6 +39,7 @@
 #nav-bar {
     float: right;
     width: 50%;
+    
 }
 
 a.nav-class {
@@ -45,7 +61,6 @@ a.nav-class {
     margin: 0;
     padding: 1%;
     width: 20%;
-    font-weight: 300;
     text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -132,30 +147,30 @@ a.nav-class:hover {
 }
 
 /*----------------------Portfolio Style------------------------------*/
-        #websites, #webApps, #desktopApps, #mobileApps {
-            display: none;
-        }
-        
-        #portfolioMenu {
-            font-family: 'Muli', sans-serif;
-            font-size: 16px;
-            text-align: center;
-        }
-        
-        #portfolioMenu a {
-            text-decoration: none;
-            color: #707070;
-        }
+#websites, #webApps, #desktopApps, #mobileApps {
+    display: none;
+}
 
-        a#menuSite {
-            color: black;
-        }
+#portfolioMenu {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
 
-        .previewHeader {
-            text-align: center;
-            font-size: 18px;
-            color: black;
-        }
+#portfolioMenu a {
+    text-decoration: none;
+    color: #707070;
+}
+
+a#menuSite {
+    color: black;
+}
+
+.previewHeader {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
 
 /*----------------------Footer Styling-------------------------------*/
 #footer a {

@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Michael Reinders</title>
 	<meta name="description" content="Programming and Web Design"><meta name="author" content="Michael Reinders"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Muli:200,400" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="css/Main.css" rel="stylesheet" type="text/css" />
 	<link href="css/screenResponse.css" rel="stylesheet" type="text/css" />
@@ -21,17 +21,14 @@
 </script>
 </head>
 <body>
-<div id="siteTitle">
-<p>Michael-Reinders.com</p>
-</div>
-
+<div id="siteHeader"><div id="siteLogo"><img src="img/MR-Icon.png" /></div><p id="site-title">Michael Reinders</p></div>
 <div id="nav-bar">
-<nav>
-	<a <?php echo "class=\"$homeActive\""; ?> href="/">Home</a> 
-	<a <?php echo "class=\"$aboutActive\""; ?> href="/about">About</a> 
-	<a <?php echo "class=\"$portfolioActive\""; ?> href="/portfolio">Portfolio</a> 
-	<a <?php echo "class=\"$contactActive\""; ?> href="/contact">Contact</a>
-</nav>
+	<nav>
+		<a <?php echo "class=\"$homeActive\""; ?> href="/">Home</a> 
+		<a <?php echo "class=\"$aboutActive\""; ?> href="/about.php">About</a> 
+		<a <?php echo "class=\"$portfolioActive\""; ?> href="/portfolio.php">Portfolio</a> 
+		<a <?php echo "class=\"$contactActive\""; ?> href="/contact.php">Contact</a>
+	</nav>
 </div>
 <!-- Set all 3 Images to change in responsive CSS -->
 <img alt="Programming and Web Design" id="home-banner" src="img/Michael-Reinders-Main-Banner.png" /> 

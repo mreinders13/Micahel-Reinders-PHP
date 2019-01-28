@@ -1,20 +1,25 @@
 @media screen and (max-width: 825px) {
-    #siteTitle  p {
-        text-align: center;
-        font-size: 3.5vw;
-    }
-    
-    #siteTitle  {
+
+    #siteHeader {
+        width: 70%;
         margin-left: 15%;
         margin-right: 15%;
-        padding-left: 0;
-        width: 70%;
-        line-height: 5%;
+        text-align: center;
+        height: 75px;
+        display: inline-block;
+
+    }
+
+    #site-title  p {
+        text-align: center;
+
     }
     
     #nav-bar {
         width: 100%;
         float: none;
+        display: inline-block;
+        text-align: center;
     }
 
     a.nav-class {
@@ -55,15 +60,21 @@
 }
 /*------------------------------------------------------*/
 @media screen and (max-width: 480px) {
-    #siteTitle  p {
-        text-align: center;
-        font-size: 16px;
+
+    #siteHeader {
+        height: 50px;
     }
 
-    #siteTitle {
-        padding-left: 0;
-        line-height: 5%;
+    #site-title {
+        position: relative;
+        top: -14px;
+        text-align: center;
+        font-size: 16px;
         
+    }
+
+    #siteLogo img {
+        width: 40px;
     }
 
     #page-main-content {
