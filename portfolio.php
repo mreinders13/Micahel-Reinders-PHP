@@ -17,7 +17,7 @@ include("inc/header.php"); ?>
 	<hr />
 	<p class="previewHeader"><a href="https://www.quantummark.com" target="_blank">QuantumMark.com</a></p>
 	<a href="https://www.quantummark.com" target="_blank"><img class="preview-img" src="img/quantummark-preview.png" alt="quantummark-preview" /></a>	
-	<p><a href="https://www.quantummark.com" target="_blank">Quantummark.com</a> is a Corportate Website that utilizes Wordpress as its Content Management System. The website uses the Total Wordpress theme, but many of its features include custom HTML, CSS and Javascript to achieve some of its more ambitious design goals, including all About and Service webpages and a custom coded Contact form.</p>
+	<p><a href="https://www.quantummark.com" target="_blank">Quantummark.com</a> is a Corportate Website that utilizes Wordpress as its Content Management System. The website uses the Total Wordpress theme, but many of its features include custom HTML, CSS and Javascript to achieve some of its more ambitious design goals, including all About and Service webpages and a custom coded Contact form.</p><hr />
 </div>
 <div id="webApps">
 	<p class="previewHeader">.NetCore MVC Application</p>
